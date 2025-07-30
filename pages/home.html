@@ -1,0 +1,214 @@
+<section id="homePage" class="page active">
+            <section class="banner">
+                <div class="banner-image-container">
+                    <div class="skeleton"></div>
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="product_images/phnbanner.png">
+                        <source media="(min-width: 769px)" srcset="product_images/desktopbanner.png">
+                        <img src="product_images/desktop_banner.png" alt="Premium Digital Products and Services" class="image-fade-in" />
+                    </picture>
+                    <span class="image-placeholder-text" style="display:none;">Premium Digital Products and Services</span>
+                </div>
+            </section>
+
+            <div class="container">
+                 <h2 class="category-section-title">Product Categories</h2>
+            </div>
+            <section class="categories container">
+                <div class="category" onclick="navigateTo('products', 'course')">
+                    <div class="category-icon-wrapper"><i class="fas fa-graduation-cap category-icon-fa" aria-hidden="true"></i></div>
+                    <p class="category-name">Course</p>
+                    <p class="category-subtitle" id="category-count-course">0 Premium Courses</p>
+                </div>
+                <div class="category" onclick="navigateTo('products', 'subscription')">
+                    <div class="category-icon-wrapper"><i class="fas fa-key category-icon-fa" aria-hidden="true"></i></div>
+                    <p class="category-name">Subscription</p>
+                    <p class="category-subtitle" id="category-count-subscription">0 Premium Services</p>
+                </div>
+                <div class="category" onclick="navigateTo('products', 'software')">
+                    <div class="category-icon-wrapper"><i class="fas fa-laptop-code category-icon-fa" aria-hidden="true"></i></div>
+                    <p class="category-name">Software</p>
+                    <p class="category-subtitle" id="category-count-software">0 Bundle Packages</p>
+                </div>
+                <div class="category" onclick="navigateTo('products', 'ebook')">
+                    <div class="category-icon-wrapper"><i class="fas fa-book-open category-icon-fa" aria-hidden="true"></i></div>
+                    <p class="category-name">Ebook</p>
+                    <p class="category-subtitle" id="category-count-ebook">0 Digital Guides</p>
+                </div>
+            </section>
+
+            <section class="product-listings container">
+                <div class="featured-section-header">
+                    <h2 class="category-title">Courses</h2>
+                    <a class="view-all" onclick="navigateTo('products', 'course')">View All <i class="fas fa-angle-double-right" style="font-size: 0.8em;"></i></a>
+                </div>
+                <div class="homepage-products-grid" id="featuredCoursesGrid">
+                    <div class="skeleton-card">
+                        <div class="skeleton-card-image"><div class="skeleton-loading"></div></div>
+                        <div class="skeleton-card-content">
+                            <div class="skeleton-card-title skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-price skeleton-loading"></div>
+                            <div class="skeleton-card-buttons"><div class="skeleton-card-button skeleton-loading full-width"></div></div>
+                        </div>
+                    </div>
+                    <div class="skeleton-card">
+                        <div class="skeleton-card-image"><div class="skeleton-loading"></div></div>
+                        <div class="skeleton-card-content">
+                            <div class="skeleton-card-title skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-price skeleton-loading"></div>
+                            <div class="skeleton-card-buttons"><div class="skeleton-card-button skeleton-loading full-width"></div></div>
+                        </div>
+                    </div>
+                    <div class="skeleton-card">
+                        <div class="skeleton-card-image"><div class="skeleton-loading"></div></div>
+                        <div class="skeleton-card-content">
+                            <div class="skeleton-card-title skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-price skeleton-loading"></div>
+                            <div class="skeleton-card-buttons"><div class="skeleton-card-button skeleton-loading full-width"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-section-header">
+                    <h2 class="category-title">Subscriptions</h2>
+                    <a class="view-all" onclick="navigateTo('products', 'subscription')">View All <i class="fas fa-angle-double-right" style="font-size: 0.8em;"></i></a>
+                </div>
+                <div class="homepage-products-grid" id="popularSubscriptionsGrid">
+                     <div class="skeleton-card">
+                        <div class="skeleton-card-image"><div class="skeleton-loading"></div></div>
+                        <div class="skeleton-card-content">
+                            <div class="skeleton-card-title skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-price skeleton-loading"></div>
+                            <div class="skeleton-card-buttons"><div class="skeleton-card-button skeleton-loading full-width"></div></div>
+                        </div>
+                    </div>
+                    <div class="skeleton-card">
+                        <div class="skeleton-card-image"><div class="skeleton-loading"></div></div>
+                        <div class="skeleton-card-content">
+                            <div class="skeleton-card-title skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-price skeleton-loading"></div>
+                            <div class="skeleton-card-buttons"><div class="skeleton-card-button skeleton-loading full-width"></div></div>
+                        </div>
+                    </div>
+                    <div class="skeleton-card">
+                        <div class="skeleton-card-image"><div class="skeleton-loading"></div></div>
+                        <div class="skeleton-card-content">
+                            <div class="skeleton-card-title skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-price skeleton-loading"></div>
+                            <div class="skeleton-card-buttons"><div class="skeleton-card-button skeleton-loading full-width"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-section-header">
+                    <h2 class="category-title">Software</h2>
+                    <a class="view-all" onclick="navigateTo('products', 'software')">View All <i class="fas fa-angle-double-right" style="font-size: 0.8em;"></i></a>
+                </div>
+                <div class="homepage-products-grid" id="topSoftwareGrid">
+                    <div class="skeleton-card">
+                        <div class="skeleton-card-image"><div class="skeleton-loading"></div></div>
+                        <div class="skeleton-card-content">
+                            <div class="skeleton-card-title skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-price skeleton-loading"></div>
+                            <div class="skeleton-card-buttons"><div class="skeleton-card-button skeleton-loading full-width"></div></div>
+                        </div>
+                    </div>
+                    <div class="skeleton-card">
+                        <div class="skeleton-card-image"><div class="skeleton-loading"></div></div>
+                        <div class="skeleton-card-content">
+                            <div class="skeleton-card-title skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-price skeleton-loading"></div>
+                            <div class="skeleton-card-buttons"><div class="skeleton-card-button skeleton-loading full-width"></div></div>
+                        </div>
+                    </div>
+                    <div class="skeleton-card">
+                        <div class="skeleton-card-image"><div class="skeleton-loading"></div></div>
+                        <div class="skeleton-card-content">
+                            <div class="skeleton-card-title skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-price skeleton-loading"></div>
+                            <div class="skeleton-card-buttons"><div class="skeleton-card-button skeleton-loading full-width"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-section-header">
+                    <h2 class="category-title">Ebooks</h2>
+                    <a class="view-all" onclick="navigateTo('products', 'ebook')">View All <i class="fas fa-angle-double-right" style="font-size: 0.8em;"></i></a>
+                </div>
+                <div class="homepage-products-grid ebooks-grid" id="latestEbooksGrid">
+                    <div class="skeleton-card">
+                        <div class="skeleton-card-image"><div class="skeleton-loading"></div></div>
+                        <div class="skeleton-card-content">
+                            <div class="skeleton-card-title skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-price skeleton-loading"></div>
+                            <div class="skeleton-card-buttons"><div class="skeleton-card-button skeleton-loading full-width"></div></div>
+                        </div>
+                    </div>
+                    <div class="skeleton-card">
+                        <div class="skeleton-card-image"><div class="skeleton-loading"></div></div>
+                        <div class="skeleton-card-content">
+                            <div class="skeleton-card-title skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-price skeleton-loading"></div>
+                            <div class="skeleton-card-buttons"><div class="skeleton-card-button skeleton-loading full-width"></div></div>
+                        </div>
+                    </div>
+                    <div class="skeleton-card">
+                        <div class="skeleton-card-image"><div class="skeleton-loading"></div></div>
+                        <div class="skeleton-card-content">
+                            <div class="skeleton-card-title skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-description skeleton-loading"></div>
+                            <div class="skeleton-card-price skeleton-loading"></div>
+                            <div class="skeleton-card-buttons"><div class="skeleton-card-button skeleton-loading full-width"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="why-choose-us">
+                <h2 class="section-title">Why Choose Us</h2>
+                <div class="choose-us-grid container">
+                    <div class="benefit">
+                        <i class="fas fa-medal benefit-icon-fa" aria-hidden="true"></i>
+                        <h3>Premium Quality</h3>
+                        <p>Access good-quality digital products </p>
+                    </div>
+                    <div class="benefit">
+                        <i class="fas fa-headset benefit-icon-fa" aria-hidden="true"></i>
+                        <h3>Dedicated Support</h3>
+                        <p>Think plus bd is available for halp and queries.</p>
+                    </div>
+                    <div class="benefit">
+                        <i class="fas fa-tags benefit-icon-fa" aria-hidden="true"></i>
+                        <h3>Affordable Pricing</h3>
+                        <p>Get good-tier products at prices that fit with budget.</p>
+                    </div>
+                    <div class="benefit">
+                        <i class="fas fa-shield-alt benefit-icon-fa" aria-hidden="true"></i>
+                        <h3>Secure Payments</h3>
+                        <p>Multiple secure payment options, including Nagad and bKash.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
